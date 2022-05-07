@@ -15,6 +15,12 @@ instructor: guile
 [guile, osvaldo, james]
 
 ---
+instructors: 
+ - guile
+ - osvaldo
+ - james
+
+---
 # An employee record
 
 instructor: 
@@ -26,6 +32,18 @@ instructor:
 ---
 # Employee list
 
+instructors: 
+ - name: guile
+   job: solutions-arct
+   department: aws
+   age: 37
+
+ - name: callahan
+   job: solutions-arct
+   department: aws
+   age: 40
+
+---
 
 -  instructor1: 
       name: guile
@@ -38,12 +56,12 @@ instructor:
       department: 
         - devops
         - aws
-      age: 37
+      age: 36
 ---
 # Another object format
 
 instructor:
-  {name: callahan, job: devops-eng, department: [aws, devops], age: 39}
+  {name: callahan, job: devops-eng, department: [aws, devops], age: 40}
 
 ...
 
